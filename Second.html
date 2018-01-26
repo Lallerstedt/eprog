@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dinner planner</title>
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="main.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+</head>
+<body>
+
+<div class="container">
+  <header class = "container_one">
+    <h1 id="dinner_planner" >Dinner Planner</h1>
+  </header>
+  <div class="container row">
+    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id = "sideboard">
+
+      <div id= sideboard_h4>
+        <h4>My dinner:</h4>
+        <div id="exampleView">
+          Number of guests: <span id="numberOfGuests"></span>
+        </div>
+      </div>
+      <br>
+      <br>
+      <div class="col-lg-12-1 col-md-12-1 col-sm-12-1 col-xs-12-1" id = "sideboard_menu">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" id="sideboard_register">
+            <h5> Dish name  </h5>
+            <h6>Här kommer det finnas mat sen </h6>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" id="sideboard_register_right">
+            <h5> PRICE </h5>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="col-lg-12-2 col-md-12-2 col-sm-12-2 col-xs-12-2" id = "sideboard_price" >
+        PRICE 0 SEK
+
+      </div>
+      <br>
+      <div class="col-lg-12-3 col-md-12-3 col-sm-12-3 col-xs-12-3" id = "sideboard_confirm">
+        <input class="button" type="button" value="Confirm dinner" onclick="window.location.href='file:///Users/test/Desktop/dinnerplanner-html-master/second.html'" />
+      </div>
+
+
+    </div>
+    <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9" id = "find_dish">
+      <h3>Find a dish</h3>
+      <div class="row">
+        <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3" id = "keyword">
+          Enter Keyword
+        </div>
+        <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3" id = "select_type">
+          What food?
+        </div>
+        <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+          <form>
+           <input class="button" type="button" value="Search" onclick="window.location.href='file:///Users/test/Desktop/dinnerplanner-html-master/second.html'" />
+         </div>
+         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+         </div>
+         <br>
+         <br>
+
+         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id = "food_pictures">
+
+          <div class="row">
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"><img src="images/lasange.jpg" id = "picture_small" onclick="window.location.href='file:///Users/test/Desktop/dinnerplanner-html-master/Dishinfo.html'">Lasange</div>
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"><img src="images/bakedbrie.jpg" id = "picture_small">Pizza</div>
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"><img src="images/bakedbrie.jpg" id = "picture_small">Mushrooms</div>
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"><img src="images/bakedbrie.jpg" id = "picture_small">Fiorentina</div>
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"><img src="images/bakedbrie.jpg" id = "picture_small">Bolled cod</div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <!-- Bootstrap JavaScript, needed if you want for instance tabs, models, popovers etc. -->
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+
+  <!-- The application JavaScript code -->
+  <script src="js/app.js"></script>
+  <script src="js/model/dinnerModel.js">
+    //console.log(numberOfGuests);
+    //console.log("hej");
+  </script>
+  <script src="js/view/exampleView.js"></script>
+  <script src="js/view/secondView.js"></script>
+  <!-- TODO: Here you should include JS code for your other views -->
+
+</body>
+</html>
