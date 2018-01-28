@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dinner planner</title>
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="main.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+
+</head>
+<body>
+
+ <header class = "container_one">
+  <h1 id="dinner_planner" >Dinner Planner</h1>
+</header>
+
+
+<div class="row">
+    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id = "sideboard">
+      <div id= sideboard_h4>
+        <h4>My dinner:</h4>
+        <div id="secondView">
+          Number of guests: <span id="numberOfGuests"></span>
+        </div>
+      </div>
+      <br>
+      <br>
+      <div class="col-lg-12-1 col-md-12-1 col-sm-12-1 col-xs-12-1" id = "sideboard_menu">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" id="sideboard_register">
+            <h5> Dish name</h5>
+            <h6>
+              <div id="secondViewAgainMenu">
+                <span id="secondViewAgainMenu_allDishes"></span>
+            </div>
+          </h6>
+          </h6>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" id="sideboard_register_right">
+            <h5> PRICE </h5>
+
+
+            <h6><div id = "singlePrice"><span id="dishSinglePrice"></span> kr
+  </div></h6>
+          </div>
+        </div>
+      </div>
+      <br>
+
+
+  <div class="col-sm-12-2" id = "sideboard_price">
+   <div id="secondViewAgainPrice">
+    Price:  <span id="secondViewAgain_totalPrice"></span> kr
+  </div>
+
+</div>
+<br>
+<div class="col-lg-12-3 col-md-12-3 col-sm-12-3 col-xs-12-3" id = "sideboard_confirm">
+  <input class="button" type="button" value="Confirm dinner" onclick="window.location.href='file:///Users/test/Desktop/dinnerplanner-html-master/menuinfo.html'"/>
+</div>
+
+
+</div>
+<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12" id = "find_dish">
+  <h3>Find a dish</h3>
+  <div class="row">
+    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3" id = "keyword">
+      Enter Keyword
+    </div>
+    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3" id = "select_type">
+      <select>
+        <option value="volvo">All</option>
+        <option value="saab">Main dish</option>
+        <option value="opel">Starter</option>
+        <option value="audi">Dessert</option>
+        <option value="audi">...</option>
+      </select>
+    </div>
+    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+      <form>
+       <input class="button" type="button" value="Search" onclick="window.location.href='file:///Users/test/Desktop/dinnerplanner-html-master/second.html'" />
+     </div>
+     <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+     </div>
+     <br>
+     <br>
+
+
+     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id = "food_pictures">
+
+      <div id="viewAllImages">
+                <span id="displayAllImages"></span>
+
+                   <span id="foo_div">&nbsp;</span>
+            
+
+        <span id="fooBar">&nbsp;</span>
+            </div>
+
+         <div id="viewAllDishes">
+                <span id="displayAllDishes"></span>
+            </div>
+      </div>
+
+
+<!--
+          <div class="row">
+            <div id="dishes">
+              Dishes: <span id="allDishes"></span>
+            </div>
+
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+              <img src="images/toast.jpg" id = "picture_small" onclick="window.location.href='file:///Users/test/Desktop/dinnerplanner-html-master/Dishinfo.html'"></div>
+
+             <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"><img src="images/sourdough.jpg" id = "picture_small"></div>
+
+
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"><img src="images/bakedbrie.jpg" id = "picture_small"></div>
+
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"><img src="images/meatballs.jpg" id = "picture_small"></div>
+            
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"><img src="images/icecream.jpg" id = "picture_small"></div>
+          </div>
+
+          <div class="row">
+          <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+              <h5>French Toast</h5>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+               <h5>Sourdough Starter</h5>
+             </div>
+             <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                <h5>Baked Brie with Peaches</h5>
+              </div>
+              <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                 <h5>Meat Balls</h5>
+               </div>
+               <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                  <h5>Chocolate Ice Cream</h5>
+                </div>
+          </div>
+      </div>
+     </div>
+     </div>
+        </div>
+      </div>
+    </div> -->
+  </div>
+
+
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <!-- Bootstrap JavaScript, needed if you want for instance tabs, models, popovers etc. -->
+  <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+
+  < <!-- The application JavaScript code -->
+  <script src="js/app.js"></script>
+  <script src="js/app3.js"></script>
+  <script src="js/app4.js"></script>
+  <script src="js/model/dinnerModel.js"></script>
+  <script src="js/view/secondView.js"></script>
+  <script src="js/view/secondView2.js"></script>
+  <script src="js/view/secondViewName.js"></script>
+  <script src="js/view/secondViewImg.js"></script>
+  <script src="js/view/secondViewPrice.js"></script>
+  <script src="js/view/secondViewPrice2.js"></script>
+  <script src="js/view/secondViewDishes.js"></script>
+  <script src="js/view/secondViewMenu.js"></script>
+  <script src="js/view/secondViewAgainMenu.js"></script>
+  <script src="js/view/secondViewAgainPrice.js"></script>
+  <script src="js/view/dishInfoDescription.js"></script>
+  <script src="js/view/dishInfoIngredients.js"></script>
+  <script src="js/view/dishInfoPrice.js"></script>
+  <script src="js/view/AllImages.js"></script>
+  <script src="js/view/singlePrice.js"></script>
+  <script src="js/view/viewAllDishes.js"></script>
+  <script src="js/view/viewAllImages.js"></script>
+
+
+
+  <!-- TODO: Here you should include JS code for your other views -->
+
+</body>
+</html>

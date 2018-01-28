@@ -1,0 +1,285 @@
+h1 {
+      outline: none;
+      text-align: center;
+      color: black;
+      font-family: "Comic Sans MS", cursive, sans-serif;
+      margin-left: 3em;
+      margin-right: 3em;
+      }
+
+hr {
+      color: black;
+
+      }
+.container_one {
+                  background-color: #D3D3D3;
+                  padding: 1.3em;
+                  }
+
+
+.container_two {
+                  text-align: center;
+                  font-family: "Comic Sans MS", cursive, sans-serif;
+                  background-color: white;
+                  margin-left: 30em;
+                  margin-right: 30em;
+                  margin-top: 2em;
+                  padding: 1.3em;
+
+                  }
+
+
+.container_four {
+                  text-align: center;
+                  font-family: "Comic Sans MS", cursive, sans-serif;
+                  background-color: #white;
+                  margin-left: 30em;
+                  margin-right: 20em;
+                  margin-top: 1em;
+                  padding: 1em;
+
+                  }
+
+
+.inner {
+
+                  height: 30px;
+                  width: 200px;
+                  position: absolute;
+                  background-color: grey;
+                  text-align: left;
+                  border-style: solid;
+                  border-width: thin;
+                  font-family: "Comic Sans MS", cursive, sans-serif;
+                  background-color: grey;
+
+                  }
+
+.row {
+                  padding: 0px;
+                  }
+
+.row-height {
+                  height: 0px;
+                  text-align: center;
+                  padding-top: 0px;
+                  }
+
+
+
+#sideboard  {
+                      background-color: white;
+                      height: auto;
+                      text-align: left;
+                      font-family: "Comic Sans MS", cursive, sans-serif;
+                      border-color: black;
+                      border-top-style: solid;
+                      border-width: thin;
+                      padding-right: 0em;
+                      }
+
+#sideboard_h4 {
+                      padding-left:1.5em;
+}
+
+#sideboard_register {
+                      padding-left:2em;
+}
+
+#sideboard_right {
+                      padding-left:0em;
+}
+
+#sideboard_menu {
+                      background-color: lightgrey;
+                      height:auto;
+                      padding-left: 0em;
+                      padding-right: 0em;
+                      border-top-style: solid;
+                      border-bottom-style: solid;
+                      border-width: thin;
+
+                      }
+
+
+#sideboard_price{
+                      background-color: white;
+                      text-align: right;
+                      color: red;
+                      height: auto;
+                      padding-top: 0.8em;
+                      padding-right: 2em;
+
+
+                      }
+#sideboard_confirm{
+                      background-color: white;
+                      text-align: center;
+                      height: auto;
+                      height: 30px;
+                      padding-top: 10px;
+                      padding-right: 10px;
+                      padding-bottom: 20px;
+
+
+                      }
+#first_grid {
+                      background-color: #f5f3f3;
+                      text-align: center;
+                      font-family: "Comic Sans MS", cursive, sans-serif;
+                      background-color: white;
+                      margin-left: 20%;
+                      margin-right: 20%;
+                      padding: 1.3em;
+                      }
+#find_dish {
+                      background-color: white;
+                      border-left-width: 100px;
+                      height: auto;
+                      padding-right: 0px;
+                      padding-top:10px;
+                      text-align: left;
+                      border-style: solid;
+                      border-width: thin;
+                      height: 3000px;
+                      }
+#keyword   {
+                      background-color: white;
+                      height:auto;
+                      padding-left: 0px;
+                      padding-right: 0px;
+                      border-style: solid;
+                      border-width: thin;
+                      width: 200px;
+
+                      }
+#select_type  {
+                      background-color: white;
+                      height:auto;
+                      padding-left: 0px;
+                      padding-right: 0px;
+                      width: 200px;
+
+                      }
+#food_pictures{
+                      background-color: #f5f3f3;
+                      text-align: center;
+                      border-style: solid;
+                      border-width: thin;
+                      height: 3000px;
+                      padding-left: 50px;
+                      padding-top:50px;
+                      }
+#picture_small{
+                      text-align: center;
+                      font-family: "Comic Sans MS", cursive, sans-serif;
+                      border-style: solid;
+                      border-width: thin;
+                      height: 90px;
+                      width: 90px;
+
+                      }
+#food_info {
+                      background-color: white;
+                      font-family: "Comic Sans MS", cursive, sans-serif;
+                      padding-left: 30px;
+                      height: auto;
+                      padding-right: 0px;
+                      border-left-style: solid;
+                      border-left-width: thin;
+                      border-color: black;
+                      border-top-style: solid;
+                      border-width: thin;
+
+                      }
+#ingredients_area {
+                      text-align: left;
+                      background-color: #ffecb3;
+                      font-family: "Comic Sans MS", cursive, sans-serif;
+                      height: auto;
+                      border-style: solid;
+                      border-width: medium;
+
+                      }
+#ingredient {
+                      text-align: left;
+                      background-color: #ffecb3;
+                      font-family: "Comic Sans MS", cursive, sans-serif;
+                      height: auto;
+                      border-style: solid;
+                      border-width: thin;
+
+                      }
+#total_price {
+                      text-align: left;
+                      background-color: #ffecb3;
+                      font-family: "Comic Sans MS", cursive, sans-serif;
+                      height: auto;
+
+
+                      }
+.button  {
+            background-color: #F4A460;
+            border-color: black;
+            border-style: solid;
+            border-width:medium;
+            color: black;
+            text-align: center;
+            display: inline-block;
+            font-size: 16px;
+            }
+
+#menu_done{
+    margin-top: 1em;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.mobile-margin{
+  margin-bottom: 30px;
+}
+
+#Result_people {
+                  font-family: "Comic Sans MS", cursive, sans-serif;
+                  height: auto;
+                  background-color: white;
+                  border-bottom: 0.3em;
+                  border-color: #187257;
+                  border-top-style: solid;
+                  border-width: thin;
+
+                  }
+#Result_food {
+                  font-family: "Comic Sans MS", cursive, sans-serif;
+                  background-color: white;
+                  height: auto;
+                  }
+
+#Total_price {
+                  text-align: bottom;
+                  font-family: "Comic Sans MS", cursive, sans-serif;
+                  background-color: white;
+                  height: auto;
+                  margin-top: 10px;
+                  margin-left: 50px;
+                  }
+
+#menu_done_button{
+  margin-top: 50px;
+}
+
+#dinner_planner {
+  margin: 0px;
+}
+
+@media (min-width:320px)  { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ }
+@media (min-width:480px)  { /* smartphones, Android phones, landscape iPhone */ }
+@media (min-width:600px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ }
+@media (min-width:801px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
+@media (min-width:1281px) { /* hi-res laptops and desktops */ }
+
+
+body {
+        background-color: white;
+                            font-family: "Lato", sans-serif;
+                        }
